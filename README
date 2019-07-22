@@ -2,8 +2,10 @@
   application in the Docker container
 # Requirement: Docker installed 
 # Clone the repo, create a working directory and copy the 2 files omdb.sh and Dockerfile 
-# Run the following command to build docker image "sudo docker build -t <image_name> ." or, if the user is docker enabled, witouht sudo
-# Run the following command to start container and application "sudo docker run -it <image_name>" or, if the user is docker enabled, witouht sudo
+# Run the following command to build docker image "sudo docker build -t <image_name> ." or, if the user is docker enabled, 
+  without sudo
+# Run the following command to start container and application "sudo docker run -it <image_name>" or, if the user is docker 
+  enabled, without sudo
 # Application is based on bash script and it will ask the user for a movie's title and it will
   provide Full movie Title, Released date and Rotten Tomatoes rate if present in OMDB. Please
   see for more details on OMDB http://www.omdbapi.com/; comments to source code provided in omdb.sh
